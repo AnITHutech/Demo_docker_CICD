@@ -3,7 +3,7 @@ package com.example.NguyenThuanAn.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-@Controllergi
+@Controller
 public class DockerController {
     @GetMapping("/")
     public String hello(Model model) {
